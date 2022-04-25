@@ -1,6 +1,8 @@
 body{
     max-width: 602px;
-    width: 100%;
+    width: 602px;
+    margin-top: auto;
+    background-color: bisque;
 }
 
 /* Definimos los estilos de la portada*/
@@ -16,4 +18,42 @@ body{
 #portada img{
     width: 300px;
     margin: auto;
+}
+
+#seccion-principal{
+
+}
+
+#proximos-eventos{
+
+}
+
+#subtitulo{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+#contenidos{
+
+}
+
+#entradas{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 25%;
+    height: 30%;
+    align-items: flex-start;
+}
+
+#faq{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    width: 25%;
+    height: 30%;
+    align-items: flex-end;
 }
