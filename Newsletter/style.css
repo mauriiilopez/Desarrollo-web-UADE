@@ -51,15 +51,16 @@ footer {
     font-family: 'Nunito', sans-serif;
     font-style: italic;
     font-size: 1.6rem;
-  
+    color: #242565;
 }
 
 #subtitulo-linea-2{
     font-family: 'Nunito', sans-serif;
     font-size: 1.6rem;
-    font-weight: 800;
     margin-top: -18px;
     margin-bottom: 10px;
+    font-weight: bold;
+    color: #0A075F;
 }
 
 
