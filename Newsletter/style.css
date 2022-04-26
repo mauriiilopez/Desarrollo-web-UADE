@@ -18,7 +18,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: bisque;
 }
 
 /* Definimos los estilos de la portada*/
@@ -40,9 +40,6 @@ footer a {
     background-color: bisque;
 }
 
-#proximos-eventos{
-
-}
 
 #subtitulo{
     display: flex;
@@ -77,11 +74,9 @@ footer a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
 }
 
-#contenidos div{
-    
-}
 
 
 #entradas{
