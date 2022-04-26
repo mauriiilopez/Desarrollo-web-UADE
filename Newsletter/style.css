@@ -5,6 +5,14 @@ body{
     background-color: bisque;
 }
 
+footer {
+    background-color: #0A075F;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+
 /* Definimos los estilos de la portada*/
 
 #portada{
