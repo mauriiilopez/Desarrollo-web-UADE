@@ -14,6 +14,7 @@ footer {
     text-align: center;
     font-size: 18px;
     padding: 15px;
+    position: relative;
 }
 
 /* Definimos los estilos de la portada*/
@@ -162,3 +163,4 @@ footer {
     font-family: 'Nunito', sans-serif;
     font-size: small;
 }
+
