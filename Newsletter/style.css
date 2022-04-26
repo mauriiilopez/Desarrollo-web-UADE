@@ -17,6 +17,10 @@ footer {
     position: relative;
 }
 
+footer a {
+    color: white;
+}
+
 /* Definimos los estilos de la portada*/
 
 #portada{
