@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: bisque
 }
 
 .opacity {
@@ -170,7 +171,7 @@ nav {
 
 .formulario .boton{
     width: 100%;
-    background: #e3eb58;
+    background: bisque;
     border: none;
     padding: 16px;
     color: black;
@@ -265,7 +266,7 @@ footer .website-logo{
     overflow: hidden;
 }
 .boton{
-    background-color: #d8e492  ;
+    background-color: bisque  ;
     height: 20px;
     border: 0;
     padding: 0px 40px;
