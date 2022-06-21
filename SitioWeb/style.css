@@ -270,7 +270,7 @@ footer .website-logo{
 .social-link{
     height: 100%;
     width: 50px;
-    background-image: url(img/facebook-icono.jpeg);
+    background-image: url(img/logo_facebook.png);
     background-size: 70%;
     background-position: center;
     margin-right: 1rem;
@@ -282,9 +282,9 @@ footer .website-logo{
 }
 
 footer .social-link:nth-of-type(2){
-    background-image: url(img/twitter-icono.png);
+    background-image: url(img/logo_twitter.png);
 }
 
 footer .social-link:nth-of-type(3){
-    background-image: url(img/instagram-icono.jpeg);
+    background-image: url(img/logo_instagram.png);
 }
