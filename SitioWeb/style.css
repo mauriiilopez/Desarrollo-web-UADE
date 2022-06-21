@@ -117,6 +117,67 @@ nav {
     width: 80px;
 }
 
+/* Seccion Contacto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario {
+    width: 400px;
+    background: #11115b;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #1b1b3c;
+}
+
+.formulario h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.gap {
+    width: 100%;
+    background: #11115b;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: aliceblue;
+
+}
+
+.mensaje {
+    width: 100%;
+    background: #11115b;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px;
+    height: 100px;
+}
+
+.formulario .boton{
+    width: 100%;
+    background: #e3eb58;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0px;
+    font-size: 16px;
+
+}
+
 /* FOOTER */
 
 footer{
