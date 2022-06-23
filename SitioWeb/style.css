@@ -104,9 +104,7 @@ nav {
     clear: both;
     color: aliceblue;
     text-align: center;
-    /*
-    margin-top: 500px;
-    */
+    margin-top: 25px;
 }
 
 .patrocinador {
@@ -180,6 +178,103 @@ nav {
 
 }
 
+/* SECCION PRINCIPAL */
+
+
+#seccion-principal{
+    background-color: bisque;
+}
+
+
+#subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#subtitulo-linea-1{
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #242565;
+}
+
+#subtitulo-linea-2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0A075F;
+}
+
+
+#contenidos{
+    width: 100%;
+    padding: 0 5% 5% 5%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contenedor-imagenes{
+    width: 28%;
+    height: 250px;
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3%;
+    box-shadow: grey 0 0.5px 4px 0.5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#imagen-informacion{
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    width: 100%;
+    height: 60%;
+}
+
+#descripcion-imagen{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 100%;
+    height: 40%;
+ 
+}
+
+#descripcion-texto-linea-1{
+    text-align: center; 
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+#descripcion-texto-linea-2{
+    text-align: center; 
+    margin-top: -10px;
+    font-size: 0.9rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+}
+
+
+.titulo-patrocinadores{
+    margin-top: 25px;
+}
+
 /* FOOTER */
 
 footer{
@@ -194,6 +289,7 @@ footer{
     flex-direction: column;
     background-color: #050d5b;
     color: #fff;
+    margin-top: 25px;
 }
 
 .copyright-container{
