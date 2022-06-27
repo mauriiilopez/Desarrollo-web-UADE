@@ -60,6 +60,7 @@ nav {
 #titulo img {
     margin: auto 0 auto auto;
     height: 200px;
+    width: 640px;
 }
 
 .titulo-texto {
@@ -452,60 +453,77 @@ footer .social-link:nth-of-type(3) {
 }
 
 @media only screen and (max-width: 1200px) {
-
     .footer-container {
         height: 680px;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
-    
     .footer-menus {
         justify-content: center;
     }
-
     .menu-title {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+    #titulo {
+        flex-flow: column;
+        margin: auto;
+    }
+    #titulo img {
+        margin: auto;
+        height: 200px;
+        width: 640px;
+    }
+    .titulo-imagen {
+        margin: auto;
+        height: 200px;
+        width: 640px;
+    }
+    .titulo-texto {
+        margin: auto;
+        width: 100%;
+    }
+    .titulo-subtitulo {
+        margin: auto;
+    }
+    .titulo-subtitulo h1,
+    h2 {
+        text-align: center;
+    }
+    .titulo-botones {
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-
     .footer-container {
         height: 680px;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
-        
     .footer-menus {
         justify-content: center;
     }
-
     .menu-title {
         width: 100%;
         display: flex;
         justify-content: center;
-    }    
+    }
 }
 
 @media only screen and (max-width: 800px) {
-
     .footer-container {
         height: 980px;
-
     }
-
-    .imagen-vangogh{
+    .imagen-vangogh {
         max-width: 100%;
     }
-
     .footer-content-container {
         padding: 0px 0px;
     }
-
     .footer-menus {
         flex-direction: column;
         width: 100%;
@@ -513,6 +531,38 @@ footer .social-link:nth-of-type(3) {
         justify-content: space-between;
         align-items: center;
     }
-
-    
+    #titulo {
+        flex-flow: column;
+        margin: auto;
+    }
+    #titulo img {
+        margin: auto;
+        height: 200px;
+        width: 400px;
+    }
+    .titulo-imagen {
+        margin: auto;
+        height: 200px;
+        width: 400px;
+    }
+    .titulo-texto {
+        margin: auto;
+        width: 100%;
+    }
+    .titulo-subtitulo {
+        margin: auto;
+    }
+    .titulo-subtitulo h1,
+    h2 {
+        text-align: center;
+    }
+    .titulo-botones {
+        text-align: center;
+    }
+    #navegacion a {
+        margin: 10px;
+    }
+    #navegacion ul {
+        margin: auto 30px auto auto;
+    }
 }
