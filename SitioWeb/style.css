@@ -378,6 +378,7 @@ footer {
     opacity: 0.7;
     font-weight: 400;
     padding: 10px 0;
+    font-weight: bold;
 }
 
 .footer-menus {
@@ -489,7 +490,7 @@ footer .boton:hover {}
     height: 120px;
     width: 60px;
     background-image: url(img/logo-facebook.png);
-    background-size: 70%;
+    background-size: 80%;
     background-position: center;
     margin-right: 1rem;
     background-repeat: no-repeat;
@@ -508,7 +509,7 @@ footer .social-link:nth-of-type(3) {
 }
 
 footer .footer-logo {
-    padding: 20px;
+    padding: 25px 7px;
     box-sizing: border-box;
 }
 
